@@ -6,24 +6,41 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1661198133352"></script>
-    <link rel="shortcut icon" href="favicon.ico?v=1661198133352">
-	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1661198133352">
-	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1661198133352">
-	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1661198133352">
-	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1661198133352">
-	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1661198133352">
-	<link rel="manifest" href="manifest.json?v=1661198133352">
+    <script src="lib/tdvplayer.js?v=1661209391375"></script>
+    <link rel="shortcut icon" href="favicon.ico?v=1661209391375">
+	<link rel="icon" sizes="48x48 32x32 16x16" href="favicon.ico?v=1661209391375">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="misc/icon180.png?v=1661209391375">
+	<link rel="icon" type="image/png" sizes="16x16" href="misc/icon16.png?v=1661209391375">
+	<link rel="icon" type="image/png" sizes="32x32" href="misc/icon32.png?v=1661209391375">
+	<link rel="icon" type="image/png" sizes="192x192" href="misc/icon192.png?v=1661209391375">
+	<link rel="manifest" href="manifest.json?v=1661209391375">
 	<meta name="msapplication-TileColor" content="#1B3A66">
 	<meta name="msapplication-config" content="browserconfig.xml">
-	<link rel="preload" href="locale/pt.txt?v=1661198133352" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1661198133352" as="script"/>
+	<link rel="preload" href="locale/pt.txt?v=1661209391375" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1661209391375" as="script"/>
+	<meta property="og:title" content="Catarinense Implantes Florianópolis" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Catarinense Implantes Florianópolis" />
+	<meta property="og:url" content="https://tour360graus.github.io/CatarinenseImplantesFlorianopolis/index.htm" />
+	<meta property="og:image" content="https://tour360graus.github.io/CatarinenseImplantesFlorianopolis/socialThumbnail.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="fb:app_id" content="817622095004141" />
+	<link rel="image_src" href="https://tour360graus.github.io/CatarinenseImplantesFlorianopolis/socialThumbnail.jpg?v=1661209391375">
+	<meta property="og:locale" content="pt"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="Catarinense Implantes Florianópolis"/>
+	<meta name="twitter:description" content="Catarinense Implantes Florianópolis"/>
+	<meta name="twitter:url" content="https://tour360graus.github.io/CatarinenseImplantesFlorianopolis/index.htm"/>
+	<meta name="twitter:image:src" content="https://tour360graus.github.io/CatarinenseImplantesFlorianopolis/socialThumbnail.jpg?v=1661209391375"/>
+	<meta name="twitter:image:width" content="1200"/>
+	<meta name="twitter:image:height" content="630"/>
 	<meta name="description" content="Catarinense Implantes Florianópolis"/>
 	<meta name="theme-color" content="#1B3A66"/>
-    <script src="script.js?v=1661198133352"></script>
+    <script src="script.js?v=1661209391375"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1661198133352","mobile":"script_mobile.js?v=1661198133352"};
+        var devicesUrl = {"general":"script_general.js?v=1661209391375","mobile":"script_mobile.js?v=1661209391375"};
 
         (function()
         {
@@ -66,9 +83,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1661198133352');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1661198133352');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1661198133352');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1661209391375');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1661209391375');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1661209391375');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -314,10 +331,10 @@
         #viewer { z-index:1; }
         #preloadContainer { z-index:2; opacity:0; background-color:rgba(27,58,102,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
-    <link rel="stylesheet" href="fonts.css?v=1661198133352">
+    <link rel="stylesheet" href="fonts.css?v=1661209391375">
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_B0DB440D_A8C6_1374_41DB_AD443D573659.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 45.754119138149555%; bottom: 51.1848341232229%; width: 8.94%; height: 12.90%"></div><div style="z-index: 5; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.990521327014218vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:1.99vmin;">Carregando Tour Virtual...Aguarde...</SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; background-image: url('loading/HTMLImage_B0DB440D_A8C6_1374_41DB_AD443D573659.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; overflow: hidden; right: 41.06463878326997%; bottom: 52.13270142180111%; width: 17.87%; height: 19.15%"></div><div style="z-index: 5; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.990521327014218vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ffffff;font-size:1.99vmin;">Carregando Tour Virtual...Aguarde...</SPAN></SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
