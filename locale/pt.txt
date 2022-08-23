@@ -88,7 +88,7 @@ Image_D71739CF_BBEA_88D0_41D4_E5F31C5A1997.url = skin/Image_D71739CF_BBEA_88D0_4
 ## Tour
 
 ### Description
-tour.description = Catarinense Implantes Florianópolis
+tour.description = Faça um Tour Virtual e Conheça Nossa Unidade
 
 ### Title
 tour.name = Catarinense Implantes Florianópolis
